@@ -1,0 +1,19 @@
+{
+  "name": "moocs-brasil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.3",
+    "joi": "^8.0.4",
+    "lodash": "^4.6.1",
+    "request": "^2.69.0",
+    "request-promise": "^2.0.1",
+    "slug": "^0.9.1"
+  }
+}
