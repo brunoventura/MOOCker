@@ -10,7 +10,7 @@ class CoursesContainer extends Component {
     }
 
     componentWillMount() {
-        fetch('../courses.json')
+        fetch('courses.json')
         .then(response => response.json())
         .then(responseData => this.setState({courses: responseData}))
         .catch(err => console.error(err));

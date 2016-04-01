@@ -2,7 +2,8 @@ const gulp = require('gulp');
 const browserify = require('browserify');
 const babelify = require('babelify');
 const source = require('vinyl-source-stream');
-const connect = require( 'gulp-connect' );
+const connect = require('gulp-connect');
+const ghPages = require('gulp-gh-pages');
 
 const path = {
     files: './static/**/*',
@@ -44,6 +45,11 @@ gulp.task('connect', () => {
         root: 'build',
         livereload: true
     });
+});
+
+gulp.task('deploy', function() {
+  return gulp.src(`${path.build}/**/*`)
+    .pipe(ghPages());
 });
 
 gulp.task( 'serve', ['connect', 'watch']);
