@@ -63,13 +63,6 @@
         "source": "coursera"
     },
     {
-        "name": "Origens da Vida no Contexto Cósmico",
-        "type": "time-lapse",
-        "link": "https://www.coursera.org/course/origensdavida",
-        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/0d/e83800382711e4926a792ae54af06e/origens---Copia.png",
-        "source": "coursera"
-    },
-    {
         "name": "Aprendendo a aprender: ferramentas mentais poderosas para ajudá-lo a dominar assuntos difíceis (em Português)",
         "type": "self-paced",
         "link": "https://www.coursera.org/learn/aprender",
@@ -161,13 +154,6 @@
         "source": "coursera"
     },
     {
-        "name": "Introduction to Databases",
-        "type": "time-lapse",
-        "link": "https://www.coursera.org/course/db",
-        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/c9/643d403b593b865b40c64b0f6cc33c/dbLogo.jpg",
-        "source": "coursera"
-    },
-    {
         "name": "Desenvolvimento Ágil com Padrões de Projeto",
         "type": "self-paced",
         "link": "https://www.coursera.org/learn/desenvolvimento-agil-com-padroes-de-projeto",
@@ -182,20 +168,6 @@
         "source": "coursera"
     },
     {
-        "name": "An Introduction to Interactive Programming in Python",
-        "type": "time-lapse",
-        "link": "https://www.coursera.org/course/interactivepython",
-        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/2d/99eba0352d11e4b28a5b9bdf8d9c55/large-icon.png",
-        "source": "coursera"
-    },
-    {
-        "name": "Moralities of Everyday Life",
-        "type": "time-lapse",
-        "link": "https://www.coursera.org/course/moralities",
-        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/ee/efa58e71e9cb68079b66b54e08965f/shutterstock_45601228-sized.jpg",
-        "source": "coursera"
-    },
-    {
         "name": "Microeconomics Principles",
         "type": "time-lapse",
         "link": "https://www.coursera.org/course/microecon",
@@ -207,13 +179,6 @@
         "type": "time-lapse",
         "link": "https://www.coursera.org/course/projeto-final-ios",
         "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/c5/8b88d03cc811e5840f2918f8f20d21/curso5_final.jpg",
-        "source": "coursera"
-    },
-    {
-        "name": "Design: Creation of Artifacts in Society",
-        "type": "time-lapse",
-        "link": "https://www.coursera.org/course/design",
-        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/16/5028b0352d11e49acdcfd9c2fca6c5/large-icon.png",
         "source": "coursera"
     },
     {
@@ -235,13 +200,6 @@
         "type": "time-lapse",
         "link": "https://www.coursera.org/course/projeto-final--aplicativo-para-web-com-componente-gamificado",
         "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/e6/a59130b5b011e596ddffa17da4aea1/9-Badges--Capstone.png",
-        "source": "coursera"
-    },
-    {
-        "name": "Fundamentos e Linguagem de Negócios: Contabilidade (The Blue Side Up)",
-        "type": "time-lapse",
-        "link": "https://www.coursera.org/course/linguanegocios",
-        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/97/57cf603a7011e49acdcfd9c2fca6c5/BlueSideUp.jpg",
         "source": "coursera"
     },
     {
@@ -273,24 +231,10 @@
         "source": "coursera"
     },
     {
-        "name": "Critical Thinking in Global Challenges",
-        "type": "time-lapse",
-        "link": "https://www.coursera.org/course/criticalthinking",
-        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/14/1c0aa0352d11e4b1518bb3518fcc93/large-icon.png",
-        "source": "coursera"
-    },
-    {
         "name": "Técnicas Avançadas para Projeto de Software",
         "type": "self-paced",
         "link": "https://www.coursera.org/learn/tecnicas-avancadas-para-projeto-de-software",
         "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/aa/6b8280b35611e5bf70b5770f2a87d7/Captura-de-Tela-2016-01-05-a_s-00.46.04.png",
-        "source": "coursera"
-    },
-    {
-        "name": "História da Contabilidade",
-        "type": "time-lapse",
-        "link": "https://www.coursera.org/course/histcontabilidade",
-        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/84/4530003a7c11e4802a1fb78aad2eef/Clay_accounting_tokens_Susa_Louvre_n2.jpg",
         "source": "coursera"
     },
     {
@@ -350,10 +294,10 @@
         "source": "coursera"
     },
     {
-        "name": "Communication in the 21st Century Workplace",
+        "name": "Project Management: The Basics for Success",
         "type": "self-paced",
-        "link": "https://www.coursera.org/learn/communication-in-the-workplace",
-        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/49/13ed1049ad11e4bf3b71daf11b54c7/21st-Century-Communications-Course.jpg",
+        "link": "https://www.coursera.org/learn/project-management-basics",
+        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/c7/4a9b1049ae11e4bc80b986c176101c/Project-Management-Course.jpg",
         "source": "coursera"
     },
     {
@@ -371,13 +315,6 @@
         "source": "coursera"
     },
     {
-        "name": "Inspiring Leadership through Emotional Intelligence",
-        "type": "time-lapse",
-        "link": "https://www.coursera.org/course/lead-ei",
-        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/11/5725a0352a11e4aa3c599183b828af/147669568.png",
-        "source": "coursera"
-    },
-    {
         "name": "Como criar aplicativos com múltiplas telas para iPhone e iPad",
         "type": "self-paced",
         "link": "https://www.coursera.org/learn/multiplas-telas-iphone",
@@ -392,31 +329,10 @@
         "source": "coursera"
     },
     {
-        "name": "Pluralidades em Português Brasileiro",
-        "type": "time-lapse",
-        "link": "https://www.coursera.org/course/portestrangeiros",
-        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/27/dcb49015ce11e5b54a23e395803c9c/logolargo.png",
-        "source": "coursera"
-    },
-    {
         "name": "Work Smarter, Not Harder: Time Management for Personal & Professional Productivity",
         "type": "self-paced",
         "link": "https://www.coursera.org/learn/work-smarter-not-harder",
         "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ee/5c8f8049b111e4bc80b986c176101c/Time-Mangagement-Course-2.jpg",
-        "source": "coursera"
-    },
-    {
-        "name": "Composición de canciones",
-        "type": "self-paced",
-        "link": "https://www.coursera.org/learn/composicion-canciones",
-        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/4e/249670670b11e5b85ee3d00e1b8e06/songwriting-2.png",
-        "source": "coursera"
-    },
-    {
-        "name": "Writing in the Sciences",
-        "type": "time-lapse",
-        "link": "https://www.coursera.org/course/sciwrite",
-        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/42/0dd240352d11e4b07f0965d0c0162f/large-icon.png",
         "source": "coursera"
     },
     {
@@ -441,13 +357,6 @@
         "source": "coursera"
     },
     {
-        "name": "Beyond Silicon Valley: Growing Entrepreneurship in Transitioning Economies",
-        "type": "self-paced",
-        "link": "https://www.coursera.org/learn/entrepreneurship-development",
-        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/02/6833219a4722f01632407f5265c508/Beyond-Silcon-Valley-Logo.jpg",
-        "source": "coursera"
-    },
-    {
         "name": "Negociações de sucesso: estratégias e habilidades essenciais (em Português)",
         "type": "self-paced",
         "link": "https://www.coursera.org/learn/negociacao",
@@ -455,10 +364,10 @@
         "source": "coursera"
     },
     {
-        "name": "The Power of Macroeconomics: Economic Principles in the Real World",
-        "type": "time-lapse",
-        "link": "https://www.coursera.org/course/ucimacroeconomics",
-        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/da/088ed0352a11e4b28a5b9bdf8d9c55/Coursera_MacroEconomics.png",
+        "name": "Successful Negotiation: Essential Strategies and Skills",
+        "type": "self-paced",
+        "link": "https://www.coursera.org/learn/negotiation-skills",
+        "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/95/95fb60216711e4bbc06b0f844b34bc/contractnegotiations_Logo_080814d.jpg",
         "source": "coursera"
     },
     {
