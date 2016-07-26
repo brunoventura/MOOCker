@@ -11,22 +11,30 @@ class CoursesContainer extends Component {
 
     componentWillMount() {
         fetch('courses.json')
-        .then(response => response.json())
-        .then(responseData => this.setState({courses: responseData}))
-        .catch(err => console.error(err));
+            .then(response => response.json())
+            .then(responseData => this.setState({courses: responseData}))
+            .catch(err => console.error(err));
     }
 
     render() {
         const courseNames = this.state.courses.map(course => {
             return (
-                <div className="col-md-3 col-sm-6 hero-feature">
-                    <div className="thumbnail">
-                        <div className="image-container" style={{backgroundImage: `url(${course.image})`}}></div>
-                        <div className="caption">
-                            <h3>{ course.name }</h3>
+                <a href={ course.link } target="_blank">
+                    <div className="col-md-3 col-sm-6 hero-feature">
+                        <div className="thumbnail">
+                            <div className="image-container" style={{backgroundImage: `url(${course.image})`}}></div>
+                            <div className="caption text-left">
+                                <p>{ course.name }</p>
+                            </div>
+                            <div className="text-left">
+                                <p>{ course.startDate && new Date(course.startDate).toISOString() }</p>
+                            </div>
+                            <div className="provider">
+                                <p>By: { course.source }</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             );
         })
         return (

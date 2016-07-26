@@ -32,4 +32,16 @@ footer {
 
 .thumbnail {
     height: 350px;
+    position: relative;
+}
+
+.thumbnail .caption {
+    max-height: 112px;
+    font-size: 19px;
+    overflow: hidden;
+}
+
+.provider {
+    position: absolute;
+    bottom: 0;
 }
