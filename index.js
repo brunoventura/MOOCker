@@ -20,6 +20,6 @@ Promise.map(sources, source => source.courses)
         console.log(`[Counts] Total Courses - ${courses.length}`);
         console.log(`[Counts] New Courses - ${created.length}`);
         console.log(`[Counts] Updated Courses - ${updated.length}`);
-        console.log(`> Mooc Consumer Ended <`);
+        console.log('> Mooc Consumer Ended <');
     })
-    .catch(err => console.log(`Some source appresented error: ${err}`))
+    .catch(err => console.log(`Some source appresented error: ${err}`));
