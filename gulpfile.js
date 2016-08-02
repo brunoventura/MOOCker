@@ -16,10 +16,11 @@ const path = {
 };
 
 gulp.task('eslint', () => {
-    gulp.src(['index.js', './lib/**/*.js'])
+    const pipe = gulp.src(['index.js', './lib/**/*.js'])
         .pipe(eslint())
-        // .pipe(eslint.failAfterError())
-        .pipe(eslint.format());
+        .pipe(eslint.format())
+        .pipe(eslint.failAfterError());
+    return pipe;
 });
 
 gulp.task('transpile', () => {
