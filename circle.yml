@@ -1,0 +1,12 @@
+---
+general:
+  artifacts:
+    - './coverage'
+
+dependencies:
+  override:
+    - echo 'docker will do the job'
+
+machine:
+  services:
+    - docker
