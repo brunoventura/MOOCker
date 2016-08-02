@@ -16,7 +16,10 @@ console.log('> Mooc Consumer Starting <');
 Promise.map(sources, source => source.courses)
     .then(_.flatten)
     .then(persist)
-    .then(courses => {
-        console.log(`> Mooc Consumer Ended - ${courses.length} Courses Loaded <`);
+    .spread((courses, updated, created) => {
+        console.log(`[Counts] Total Courses - ${courses.length}`);
+        console.log(`[Counts] New Courses - ${created.length}`);
+        console.log(`[Counts] Updated Courses - ${updated.length}`);
+        console.log(`> Mooc Consumer Ended <`);
     })
-    .catch(err => console.log(`Aborted, error consuming, try again: ${err}`));
+    .catch(err => console.log(`Some source appresented error: ${err}`))
