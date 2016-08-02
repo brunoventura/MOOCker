@@ -1,12 +1,12 @@
----
 general:
-  artifacts:
-    - './coverage'
-
-dependencies:
-  override:
-    - echo 'docker will do the job'
+    artifacts:
+        - "./coverage" #coverage report
 
 machine:
-  services:
-    - docker
+    node:
+        version: 4.4.4
+
+dependencies:
+    override:
+        - npm install -g npm
+        - npm install
