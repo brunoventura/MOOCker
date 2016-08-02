@@ -1,18 +1,18 @@
 'use strict';
 
-const dotenv = require('dotenv').config();
+const dotenv = require('dotenv');
 const Promise = require('bluebird');
 const _ = require('lodash');
-const fs = require('fs');
-const indexator = require('./lib/Indexator');
 const persist = require('./lib/Persist');
 
 const veduca = require('./lib/plugins/veduca');
 const coursera = require('./lib/plugins/coursera');
 const edx = require('./lib/plugins/edx');
 
+dotenv.config();
+
 const sources = [coursera, veduca, edx];
-console.log('> Mooc Consumer Starting <')
+console.log('> Mooc Consumer Starting <');
 Promise.map(sources, source => source.courses)
     .then(_.flatten)
     .then(persist)
