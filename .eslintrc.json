@@ -1,0 +1,59 @@
+{
+    "parserOptions": {
+        "sourceType": "script"
+    },
+    "extends": "airbnb-base",
+    "rules": {
+        "arrow-parens": [
+            "error",
+            "as-needed"
+        ],
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": true
+            }
+        ],
+        "import/newline-after-import": [
+            "off"
+        ],
+        "indent": [
+            "error",
+            4
+        ],
+        "max-len": [
+            "error",
+            120
+        ],
+        "no-console": [
+            "error"
+        ],
+        "prefer-arrow-callback": [
+            "error",
+            {
+                "allowNamedFunctions": true
+            }
+        ],
+        "prefer-rest-params": [
+            "off"
+        ],
+        "prefer-spread": [
+            "off"
+        ],
+        "no-param-reassign": [
+            "off"
+        ],
+        "quote-props": [
+            "error",
+            "consistent-as-needed"
+        ],
+        "space-before-function-paren": [
+            "error",
+            "never"
+        ]
+    }
+}
