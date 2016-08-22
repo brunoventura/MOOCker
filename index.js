@@ -16,9 +16,9 @@ Promise.map(sources, source => source.courses)
     .then(_.flatten)
     .then(persist)
     .spread((courses, updated, created) => {
-        console.log(`[Counts] Total Courses - ${courses.length}`);
-        console.log(`[Counts] New Courses - ${created.length}`);
-        console.log(`[Counts] Updated Courses - ${updated.length}`);
-        console.log('> Mooc Consumer Ended <');
+        log.info(`[Counts] Total Courses - ${courses.length}`);
+        log.info(`[Counts] New Courses - ${created.length}`);
+        log.info(`[Counts] Updated Courses - ${updated.length}`);
+        log.info('> Mooc Consumer Ended <');
     })
     .catch(err => log.error(`Some source appresented error: ${err}`));
