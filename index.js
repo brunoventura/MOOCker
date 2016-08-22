@@ -1,6 +1,6 @@
 'use strict';
 
-const dotenv = require('dotenv');
+require('dotenv').config();
 const Promise = require('bluebird');
 const _ = require('lodash');
 const log = require('./lib/Logs');
@@ -8,7 +8,6 @@ const persist = require('./lib/Persist');
 const veduca = require('./lib/plugins/veduca');
 const coursera = require('./lib/plugins/coursera');
 const edx = require('./lib/plugins/edx');
-dotenv.config();
 
 const sources = [coursera, veduca, edx];
 log.info('> Mooc Consumer Starting <');
